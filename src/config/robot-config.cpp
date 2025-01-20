@@ -40,7 +40,7 @@ vision::signature redRing = vision::signature(2, 7801, 10473, 9137, -1365, -815,
 vision::signature blueRing = vision::signature (1, -4831, -3993, -4412, 3775, 5313, 4544, 2.2, 0);
 vision vis = vision(PORT3, 50, redRing, blueRing);                      //视觉识别
 
-distance Distance = distance(PORT5);                         //红外测距
+// distance Distance = distance(PORT5);                         //红外测距
 
 optical Optical = optical(PORT11);                             //光学传感器
 rotation Drunk_rotation = rotation(PORT5, false);             //编码器
